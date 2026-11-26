@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "mode": "endpoint",
+  "startup_s": null,
+  "ready_wait_s": null,
+  "load_s": null,
+  "latency_s": [
+    2.6845,
+    2.9416,
+    2.6829
+  ],
+  "billable_s": null,
+  "billing_basis": "unavailable",
+  "config": {
+    "model": "Efficient-Large-Model/Sana_1600M_1024px_diffusers",
+    "prompt": "A storybook illustration of a blue  telescope glowing on park  under a starry night sky, a small decorated tree and wrapped presents, warm colors, no people, no text",
+    "seed": 7,
+    "params": {
+      "width": 512,
+      "height": 512,
+      "num_inference_steps": 20,
+      "guidance_scale": 4.5,
+      "negative_prompt": ""
+    }
+  },
+  "env": {
+    "driver": null,
+    "cuda": null,
+    "torch": null,
+    "diffusers": null,
+    "peak_vram_gb": null,
+    "gpu": "L40S"
+  },
+  "assets": [
+    {
+      "file": "asset-000.png",
+      "bytes": 443808,
+      "sha256": "80cbe856fb1d430ae026c2a8842841bec123e7a1b70f58858dc8e48074970111"
+    },
+    {
+      "file": "asset-001.png",
+      "bytes": 443808,
+      "sha256": "80cbe856fb1d430ae026c2a8842841bec123e7a1b70f58858dc8e48074970111"
+    },
+    {
+      "file": "asset-002.png",
+      "bytes": 443808,
+      "sha256": "80cbe856fb1d430ae026c2a8842841bec123e7a1b70f58858dc8e48074970111"
+    }
+  ],
+  "status": "completed"
+}
